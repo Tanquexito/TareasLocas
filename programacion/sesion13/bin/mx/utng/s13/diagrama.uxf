@@ -1,0 +1,25 @@
+<diagram program="umletino" version="15.1"><zoom_level>8</zoom_level><element><id>UMLInterface</id><coordinates><x>106</x><y>62</y><w>80</w><h>96</h></coordinates><panel_attributes>Hervivoro
+--
++comer():void
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>258</x><y>118</y><w>120</w><h>72</h></coordinates><panel_attributes>/Animal/
+--
+-especie:String
+-genero:String
+-edad:int
+--
++respirar():void
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>18</x><y>86</y><w>104</w><h>96</h></coordinates><panel_attributes>lt=&lt;&lt;.
+Se comporta como</panel_attributes><additional_attributes>110;10;10;100</additional_attributes></element><element><id>UMLClass</id><coordinates><x>2</x><y>166</y><w>160</w><h>96</h></coordinates><panel_attributes>Venado
+--
+-tieneCuernos:boolean
+--
++comer():void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>154</x><y>110</y><w>120</w><h>72</h></coordinates><panel_attributes>lt=&lt;&lt;-
+es un</panel_attributes><additional_attributes>130;10;10;70</additional_attributes></element><element><id>UMLClass</id><coordinates><x>178</x><y>302</y><w>152</w><h>72</h></coordinates><panel_attributes>Poliformismo
+--
+--
++main(String[]):void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>58</x><y>254</y><w>136</w><h>112</h></coordinates><panel_attributes>lt=&lt;..
+usa</panel_attributes><additional_attributes>10;10;150;120</additional_attributes></element><element><id>Relation</id><coordinates><x>306</x><y>190</y><w>40</w><h>128</h></coordinates><panel_attributes>lt=&lt;..
+usa</panel_attributes><additional_attributes>10;10;20;140</additional_attributes></element><element><id>Relation</id><coordinates><x>154</x><y>46</y><w>280</w><h>280</h></coordinates><panel_attributes>lt=&lt;..
+usa</panel_attributes><additional_attributes>10;30;310;10;300;320;220;330</additional_attributes></element></diagram>

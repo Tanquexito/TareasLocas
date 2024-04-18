@@ -1,0 +1,30 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>120</x><y>0</y><w>210</w><h>170</h></coordinates><panel_attributes>/Persona/
+--
+-nombre:String
+-apellidos:String
+--
++Constructor + Persona(String,String)
++mostrarDatos():void
+/+vivir():void/
+/todos setters
+/todos getters
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>280</y><w>190</w><h>120</h></coordinates><panel_attributes>Profesor
+--
+idProfesor:String
+--
+Contructor +Profesor(String,String, String)
+Override +mostrarDatos():void
+Override +vivir():vois</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>60</x><y>160</y><w>100</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;-
+es una</panel_attributes><additional_attributes>70;10;10;120</additional_attributes></element><element><id>UMLClass</id><coordinates><x>220</x><y>440</y><w>210</w><h>130</h></coordinates><panel_attributes>ProfesorInterino
+--
+-fechaTerminacion:LocalDate
+
+--
+Constructor +ProfesorInterino(String,String,String,LocalDate)
+Override viviv():void
+Override mostrarDatos():void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>180</x><y>280</y><w>70</w><h>180</h></coordinates><panel_attributes>lt=&lt;&lt;-
+es un</panel_attributes><additional_attributes>10;10;40;160</additional_attributes></element><element><id>UMLClass</id><coordinates><x>430</x><y>220</y><w>170</w><h>90</h></coordinates><panel_attributes>Polimorfismo
+--
+--
++main(String[]):void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>180</x><y>220</y><w>270</w><h>80</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;60;250;10</additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>250</y><w>80</w><h>210</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;190;60;10</additional_attributes></element></diagram>

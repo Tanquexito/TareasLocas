@@ -1,0 +1,22 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>50</x><y>50</y><w>200</w><h>100</h></coordinates><panel_attributes>Menu
+--
+--
++main(args[]:String):void
++muestraOpciones():void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>310</x><y>130</y><w>200</w><h>90</h></coordinates><panel_attributes>Lector
+--
+-scanner:Scanner
+--
++muestraOpcion():byte
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>120</x><y>280</y><w>270</w><h>130</h></coordinates><panel_attributes>ListaDeTareas
+--
+--
++crearNuevaLista():void}
++verListaTareas():void
++verTareasDeLista():void
++actualizarListaTarea():void
++eliminarListaTarea():void
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>490</x><y>250</y><w>160</w><h>70</h></coordinates><panel_attributes>App
+--
+--
+main(args[]:String):void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>290</y><w>140</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;20;120;10</additional_attributes></element><element><id>Relation</id><coordinates><x>420</x><y>210</y><w>100</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;80;100</additional_attributes></element></diagram>
